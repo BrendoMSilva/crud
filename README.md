@@ -17,7 +17,7 @@ Acesse o projeto através de um navegador da web digitando http://localhost/crud
 
 ## Importando o arquivo SQL para o PHPMyAdmin
 
-Pelo phpmyadmin você vai criar um novo banco com o nome teste_main_php (caso queira importar a tabela para outro banco que desejar, você precisa esta alterando o nome do valor que esta na variavel "$db_name" que seencontra no arquivo functions.php).
+Pelo phpmyadmin você vai criar um novo banco com o nome teste_main_php (caso queira importar a tabela para outro banco que desejar, você precisa esta alterando o nome do valor que esta na variavel "$db_name" que se encontra no arquivo functions.php).
 
 Agora importe a tabela fornecida dentro do projeto. 
 
