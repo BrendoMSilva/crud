@@ -42,7 +42,7 @@ function logout()
 //Seleciona no banco de dados apenas 1 resultado com base no ID
 function buscaUnica($connect, $tabela, $id)
 {
-    $query = "SELECT * FROM $tabela WHERE id =" . (int) $id;
+    $query = "SELECT * FROM $tabela WHERE id =" . $id;
     $execute = mysqli_query($connect, $query);
     $result = mysqli_fetch_assoc($execute);
     return $result;
@@ -103,7 +103,7 @@ function inserirUsuarios($connect)
 function deletar($connect, $tabela, $id)
 {
     if (!empty($id)) {
-        $query = "DELETE FROM $tabela WHERE id = " . (int) $id;
+        $query = "DELETE FROM $tabela WHERE id = " . $id;
         $execute = mysqli_query($connect, $query);
 
         if ($execute) {
