@@ -28,4 +28,4 @@ nome da tabela: ``` usuarios.sql ```.
 
 Email: ``` admin.box@marktclub.com.br ```
 
-SENHA: ``` colaborador2 ```
+Senha: ``` colaborador2 ```
